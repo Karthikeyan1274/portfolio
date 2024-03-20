@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+    /* Add styles for small screens */
+    /* For example, move the image below the text */
+    .intro-container {
+      flex-direction: column;
+    }
+  }
+  

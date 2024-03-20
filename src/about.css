@@ -1,0 +1,28 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    padding: 0 20px;
+  }
+  
+  .card {
+    display: none; /* Hide the card on smaller screens */
+  }
+  
+  @media (min-width: 768px) {
+    .about-container {
+      flex-direction: row;
+    }
+  
+    .card {
+      display: block;
+      /* Your card styles here */
+    }
+  }
+  
